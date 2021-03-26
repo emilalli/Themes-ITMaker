@@ -1,0 +1,842 @@
+$v-prueba:2;
+
+/* Barra Qlik Sense Principal*/
+$color-fondo-barra:#13A6DF;
+$color-tab-activa-barra:#9D162E;
+$color-botones:#ffffff;
+$color-letra-y-borde-elementos-barra:#ffffff;
+
+/* Barra Agregar Nuevos Datos */
+$color-fondo-barra-agregar-nuevos-datos:#b1b1b1;
+
+/*Barra Navegacion Mobile*/
+$color-fondo-barra-mobile:#13A6DF;
+$color-letra-barra-mobile:#ffffff;
+
+/*Barra Navegacion Abajo Mobile*/
+$color-fondo-barra-abajo-mobile:#ffffff;
+$color-letra-barra-abajo-mobile:#1A468B;
+$color-boton-barra-abajo-mobile:#1A468B;
+
+/* Barra Titulo y Logo Hoja */
+$color-borde-barra-titulo: #13A6DF;
+
+/* Fuente */
+$fuente:'Maven Pro', sans-serif;
+
+/* Hoja */
+$color-fondo-hoja:#ffffff;
+
+/* Objetos */ 
+$color-fondo-objetos:#ffffff;
+
+/* Titulo */
+$borde-titulo-objetos:#091F40;
+$color-titulo-objetos:#1A468B;
+
+/* Footer */
+$color-letra-footer:#1A468B;
+$color-borde-footer:#091F40;
+$color-fondo-footer:#ffffff;
+
+/* Contenedor */
+$color-fondo-tab-inactiva:transparent;
+
+/* Selector de variables */
+$color-fondo-selector-variable:transparent;
+$color-fondo-selector-variable-hover:#091F4047;
+$color-letra-selector-variable:#091F40;
+$color-borde-selector-variable:#091F40;
+$color-fondo-selector-variable-activo:#091F40;
+$color-letra-selector-variable-activo:#ffffff;
+
+/* Filtros */
+$tipo-filtro:1;
+$color-fondo-filtro:#ffffff;
+$color-letra-filtro:#7B6E66;
+$color-borde-filtro:#7B6E66;
+$color-letra-filtro-hover:#584545;
+$color-barra-estado-filtro: #ffffff;
+
+/* Extension Hackaton */
+$color-fondo-extension:#ffffff;
+$color-letra-extension:#091F40;
+$color-borde-extension:#091F40;
+$color-fondo-extension-hover:#091F4047;
+
+/* Cuadro de Selecciones */
+$color-fondo-cuadro-selecciones:#ffffff;
+$color-barra-separa-cuadro-selecciones:#584545;
+
+/* Clase Selectable (Buscar que es) */
+$color-fondo-clase-selectable:#ffffff;
+
+/* Narrar historia */
+$color-fondo-narrar-historia:#ffffff;
+
+/* Tabla */
+$color-fondo-cabecera-tabla:#ffffff;
+$color-letra-cabecera-tabla:#1A468B;
+$color-borde-cabecera-tabla:#7b7b7b;
+
+/* Mapa */
+$color-letra-leyenda-mapa:#7b7b7b;
+$color-fondo-mapa:#ffffff;
+$color-boton-home-mapa:#1A468B;
+
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+    src: url("//db.onlinewebfonts.com/t/e351d9696c48bd2fbb51200af4054b09.eot"); 
+    src: url("//db.onlinewebfonts.com/t/e351d9696c48bd2fbb51200af4054b09.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/e351d9696c48bd2fbb51200af4054b09.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/e351d9696c48bd2fbb51200af4054b09.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/e351d9696c48bd2fbb51200af4054b09.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/e351d9696c48bd2fbb51200af4054b09.svg#Avenir Next LT Pro Ultralight") format("svg"); 
+}
+
+@font-face {font-family: "DylanW01-Medium";
+            src: url("//db.onlinewebfonts.com/t/62d25a4c3a22618d7ca45d58990b83ce.eot"); 
+            src: url("//db.onlinewebfonts.com/t/62d25a4c3a22618d7ca45d58990b83ce.eot?#iefix") format("embedded-opentype"), 
+            url("//db.onlinewebfonts.com/t/62d25a4c3a22618d7ca45d58990b83ce.woff2") format("woff2"), 
+            url("//db.onlinewebfonts.com/t/62d25a4c3a22618d7ca45d58990b83ce.woff") format("woff"), 
+            url("//db.onlinewebfonts.com/t/62d25a4c3a22618d7ca45d58990b83ce.ttf") format("truetype"), 
+            url("//db.onlinewebfonts.com/t/62d25a4c3a22618d7ca45d58990b83ce.svg#DylanW01-Medium") format("svg"); }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+/* Fondo Hoja */
+.qvt-sheet{
+    background: $color-fondo-hoja !important; 
+  }
+
+/* Objetos en General */
+.qv-object  {
+    background-color: $color-fondo-objetos;
+    /*border-color: #6c160f;
+    border-style: solid;*/
+    border-radius: 6px 6px 2px 2px;
+    font-family: $fuente !important;
+  /* box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.16);*/
+}
+
+/* Fuente Objetos */
+.qv-inner-object{
+    font-family: $fuente !important;
+}
+
+.qv-object-content.button.text{
+    font-family: $fuente !important;
+
+}
+
+body, button, input, isindex, keygen, select, textarea{
+    font-family: $fuente !important;
+}
+
+.qv-object-qsstatistic .ui.statistics .statistic>.label ,.qv-object-text-image .qv-media-tool-html ,.button, .text{
+    font-family: $fuente !important;
+}
+/**/
+
+/* Objeto Treemap */
+.qv-object-treemap  {
+    padding-bottom: 10px;
+}
+
+/* Borde Titulos Objetos */ 
+h1.qv-object-title.qvt-visualization-title{
+    border-radius: none !important;
+    font-size: 19px;
+    background: transparent !important;
+    padding: .1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-bottom: solid 2px $borde-titulo-objetos;
+    padding-bottom: 2px;
+}
+
+/*Fuente Títulos Objetos*/
+.qv-object .qv-object-title .qv-object-title-text {
+	font-family: $fuente !important;
+    color: $color-titulo-objetos;
+/*    padding-left: 15px;*/
+	text-align: center;
+    width: 100%;
+}
+
+/*Footer de los objetos*/
+.qv-object-footnote {
+    font-family: $fuente !important;
+    margin-top: 0px !important;
+    text-align: center !important;
+    font-style: italic;
+    font-size: 11px !important;
+    font-weight: 550 !important;
+    color: $color-letra-footer !important;
+    border-top: 2px solid !important;
+    border-color: $color-borde-footer !important;
+    background-color: $color-fondo-footer !important;
+}
+
+/*.qv-object .qv-viz * ,.qv-object .qv-chart-component-axis *,
+.qv-object .qv-listbox *,.qv-object .qv-treemap * {
+
+font-family: 'AvenirNextLTPro-Regular' !important;
+font-weight: 600;
+
+}*/
+
+
+
+.qv-listbox{
+    background-color: #ffffff !important;
+}
+
+/*
+.qv-object-kpi .ellips-text , .qv-object-qsSimpleKPI .ellips-text, .qv-object-qlik-multi-kpi .ellips-text{
+  color: #55abd3;
+}
+
+.qv-object-kpi , .qv-object-qsSimpleKPI, .qv-object-qlik-multi-kpi{
+  color: #55abd3;
+  border:solid 2px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.qv-object-kpi .measure-title.ellips-text {
+color: #353535;
+}
+
+*/
+
+/*
+.lui-tab.lui-active, .lui-tab.lui-focused, .lui-tab {
+    background-color: #55abd3 !important;
+}
+
+.lui-tab.lui-active:focus, .lui-tab.lui-focused:focus, .lui-tab:focus {
+    /*background-color: #transparent !important;*//*
+    border-bottom: 2px solid #ffffff !important;
+    transition: none;
+}
+
+.lui-tab.lui-active, .lui-tab.lui-focused, .lui-tab:hover {
+    /*background-color: #a7c55f !important;*//*
+    background-color: transparent !important;
+    border-bottom: 2px solid #ffffff !important;
+}*/
+
+/* Fondo Tab Container */
+.qs-container .qsc-tab-row .lui-tab.lui-active, .lui-tab.lui-focused, .lui-tab {
+    /*background-color: #55abd3 !important;*/
+    background-color: $color-fondo-tab-inactiva !important;
+}
+    
+/*.qs-container .qsc-tab-row .lui-tab.lui-active:focus, .lui-tab.lui-focused:focus, .lui-tab:focus {
+    background-color: #a7c55f !important;
+    background-color: #227093 !important;
+    border-bottom: 2px solid #ffffff !important;
+    transition: none;
+}*/
+
+/* Fondo Tab Container (Hover-Active) */
+.qs-container .qsc-tab-row .lui-tab.lui-active, .lui-tab.lui-focused, .lui-tab:hover {
+    /*background-color: #a7c55f !important;*/
+    background-color: transparent !important;
+    border-bottom: 2px solid #227093 !important;
+}
+/* REVISAR CONTENEDOR */
+.lui-tab .lui-tab__text {
+    color: #ffffff;
+}
+
+.lui-tab:hover .lui-tab__text:hover {
+    color: #ffffff !important;
+}
+
+.qs-container .qsc-tab-row .lui-tab__text {
+    color: #227093 !important;
+}
+
+.qs-container .qsc-tab-row .lui-tab__text:hover {
+    color: #227093 !important;
+}
+.qs-container .qsc-tab-row .lui-tab__text:focus {
+    color: #227093 !important;
+}
+
+.qs-container .qsc-tab-row .lui-tab:focus:not(:hover) {
+    border-left: none !important;
+    border-top: none !important;
+    border-right: none !important;
+}
+
+/* REVISAR CONTENEDOR */
+
+/*Barra de Navegacion de arriba*/
+.qs-toolbar{
+    background-color: $color-fondo-barra;
+}
+
+.qs-toolbar__center .qs-toolbar__tabset--tab.lui-tab.lui-active {
+    border-bottom: 2px solid $color-tab-activa-barra;
+}
+
+.qs-toolbar__center .qs-toolbar__tabset--tab:hover {
+    border-bottom: 2px solid $color-tab-activa-barra !important;
+}
+
+.qs-toolbar__left .lui-button.qs-toolbar__element{
+    border-color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__left .lui-button.qs-toolbar__element .lui-button__text{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__left .lui-button.qs-toolbar__element .lui-icon.lui-icon--direction-left.lui-button__icon{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__left .qs-popover-container.qs-toolbar__element .lui-button{
+    border-color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__left .qs-popover-container.qs-toolbar__element .lui-button .lui-icon.lui-icon--menu.lui-button__icon{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__left .qs-popover-container.qs-toolbar__element .lui-button .lui-button__caret.lui-caret{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__left .qs-app-info-toggle-container.qs-toolbar__element .lui-fade-button.lui-fade-button.qs-app-info-toggle .lui-icon.lui-icon--more-rounded.lui-fade-button__icon{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__left .qs-app-info-toggle-container.qs-toolbar__element .lui-fade-button.lui-fade-button.qs-app-info-toggle .lui-fade-button__text{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .qs-popover-container.qs-toolbar__element .lui-button{
+    border-color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .qs-popover-container.qs-toolbar__element .lui-icon.lui-icon--bookmark.qs-no-margin{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .qs-popover-container.qs-toolbar__element .lui-button__caret.lui-caret{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .lui-buttongroup.qs-toolbar__element .lui-button{
+    border-color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .lui-buttongroup.qs-toolbar__element .lui-button .lui-icon.lui-icon--sheet.lui-button__icon{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .lui-buttongroup.qs-toolbar__element .lui-button .lui-button__caret.lui-caret{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .lui-buttongroup.qs-toolbar__element .lui-button.qs-sheet-toolbar-previous-sheet-button.lui-buttongroup__button{
+    border-color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .lui-buttongroup.qs-toolbar__element .lui-button.qs-sheet-toolbar-previous-sheet-button.lui-buttongroup__button .lui-icon.lui-icon--previous.lui-button__icon{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .lui-buttongroup.qs-toolbar__element .lui-button.qs-sheet-toolbar-next-sheet-button.lui-buttongroup__button{
+    border-color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .lui-buttongroup.qs-toolbar__element .lui-button.qs-sheet-toolbar-next-sheet-button.lui-buttongroup__button .lui-icon.lui-icon--next.lui-button__icon{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .qs-toolbar__element .lui-button.lui-buttongroup__button.lui-button--success .lui-icon.lui-icon--edit.lui-button__icon{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .qs-toolbar__element .lui-button.lui-buttongroup__button.lui-button--success .lui-button__text.qs-sheet-toolbar-edit-title{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.tab-menu-button .tab-dropdown-icon .lui-icon {
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+/*Barra Navegacion Editor de carga*/
+
+.qs-toolbar__right .qs-popover-container.qs-toolbar__element .lui-button .lui-icon.lui-icon--debug.lui-button__icon{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .qs-popover-container.qs-toolbar__element .lui-button .lui-icon.lui-icon--play.lui-button__icon{
+color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .qs-popover-container.qs-toolbar__element .lui-button .lui-button__text{
+color:$color-letra-y-borde-elementos-barra;
+}
+
+.qs-toolbar__right .qs-popover-container.qs-toolbar__element .lui-button .lui-icon.lui-icon--toggle-right.lui-button__icon{
+    color:$color-letra-y-borde-elementos-barra;
+}
+
+/*Barra Navegacion Gestor de Datos*/
+
+.qs-toolbar__right .lui-buttongroup.qs-toolbar__element .lui-button.lui-buttongroup__button .lui-button__icon .lui-icon.lui-icon--table.lui-button__icon{
+    color:$color-letra-y-borde-elementos-barra; 
+}
+
+.qs-toolbar__right .lui-buttongroup.qs-toolbar__element .lui-button.lui-buttongroup__button .lui-button__icon .lui-icon.lui-icon--bubbles.lui-button__icon{
+    color:$color-letra-y-borde-elementos-barra; 
+}
+
+.qs-toolbar__right .lui-buttongroup.qs-toolbar__element .lui-button.lui-buttongroup__button .lui-button__text{
+    color:$color-letra-y-borde-elementos-barra; 
+}
+
+.qs-toolbar__right .lui-buttongroup.qs-toolbar__element .lui-button.lui-buttongroup__button .lui-button__icon .lui-icon.lui-icon--play.lui-button__icon{
+    color:$color-letra-y-borde-elementos-barra; 
+}
+
+/* Agregar Nuevos Datos */
+
+.add-data .add-data-header {
+    background-color: $color-fondo-barra-agregar-nuevos-datos;
+}
+
+/*Barra Navegacion Narracion*/
+.qs-toolbar__right .qs-popover-container.qs-toolbar__element .lui-button .lui-icon.lui-icon--slide-show.lui-button__icon{
+    color:$color-letra-y-borde-elementos-barra; 
+}
+
+/*Barra Navegacion Mobile*/
+.qs-mobile-toolbar{
+    background-color: $color-fondo-barra-mobile;
+    color: $color-letra-barra-mobile;
+}
+
+/*Barra Navegacion Abajo Mobile*/
+.quick-navigation {
+    background-color: $color-fondo-barra-abajo-mobile !important;
+}
+
+.qn-sheet-title-text{
+    color: $color-letra-barra-abajo-mobile;
+}
+
+.button.qn-button.qn-next-button.lui-fade-button.lui-fade-button--inverse.lui-fade-button--large{
+    color: $color-boton-barra-abajo-mobile !important;
+}
+
+/* Hover Botones Barra */
+.tab-menu-button .tab-dropdown-icon:hover {
+    /*background-color: #a7c55f;*/
+    background-color: transparent;
+   /* border-color: #a7c55f;*/
+   border-color: transparent;
+}
+
+.tab-menu-button .icon-tab .icon-container:hover {
+    /*background-color: #a7c55f;*/
+    background-color: transparent;
+    /*border-color: #a7c55f;*/
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.tab-menu-button .double-label-tab .tab-container:hover{
+    /*background-color: #a7c55f;*/
+    background-color: transparent;
+    /*border-color: #a7c55f;*/
+    border-color: transparent;
+    box-shadow: none;
+}
+/* Hover Botones Barra */
+
+/*Aca es donde quise poner el boton de color celeste cuando no esta seleccionado pero me pone todos en celeste jajaj*/
+/*.lui-button {
+border: 1px solid #ffffff!important;
+background-color: #13A6DF!important;
+}*/
+
+
+/* --------- REVISAR---------*/
+/*
+.lui-fade-button ,.lui-button {
+    color:#595959 !important;
+}
+
+.lui-fade-button:focus ,.lui-button:focus{
+    color:#ffffff !important;
+}
+.lui-fade-button:hover ,.lui-button:hover{
+    color:#ffffff !important;
+}
+
+[ng-click],.lui-dialog__button, .lui-dialog__footer .lui-button{
+  color:#666666 !important;
+}
+
+.qv-panel-properties .overlay .overlay-content button{
+  background-color: #666666 !important;
+ /* background-color: #ffffff !important;*//*-----------Verificarlo-------------*/
+/*}*/
+
+
+/* Selector de variables */
+/*.lui-select{
+background-color: #55abd3;
+}*/
+
+/*.qv-object-qlik-variable-input{
+box-shadow:none;
+}
+/*Selector de variables*/
+/*.lui-button.lui-active{
+background-color: #a7c55f;
+}
+*/
+
+/* Si la botonera esta horizontal
+.qv-object-qlik-variable-input div.qlik {
+    margin-top: 10px !important;
+}
+*/
+
+/* Selector de Variables */
+.qv-object-qlik-variable-input .lui-button{
+    box-shadow:none;
+    background-color: $color-fondo-selector-variable;
+    color: $color-letra-selector-variable !important;
+    border: 1px solid;
+    border-color: $color-letra-selector-variable !important;
+}
+
+.qv-object-qlik-variable-input .lui-button:hover{
+    background-color: $color-fondo-selector-variable-hover;
+}
+
+.qv-object-qlik-variable-input .lui-button.lui-active{
+    box-shadow:none;
+    background-color: $color-fondo-selector-variable-activo;
+    color: $color-letra-selector-variable-activo !important;
+    }
+
+/* Filtros */
+.qv-object-filterpane{
+    background-color: $color-fondo-filtro;
+    padding-top: 0px; 
+    box-shadow: none;
+}
+
+.qv-collapsed-listbox .title-wrapper .title{
+
+  color: $color-letra-filtro;
+  font-family: $fuente !important;
+  font-weight: 800;
+  text-align: center;
+  background-image: url(https://i.imgur.com/nh7SsPm.png);
+  background-repeat: no-repeat;
+ /* margin-right: 20px;*/
+  background-position: right;
+  background-size: 10px auto;
+ /* margin-top: 4px;*/
+  font-size: 16px;
+  transition: transform .2s;
+}
+.qv-collapsed-listbox .title-wrapper .title:hover{
+
+  color: $color-letra-filtro;
+  font-family: $fuente !important;
+  font-weight: 800;
+  text-align: center;
+  background-image: url(https://i.imgur.com/ompjJgF.png);
+  background-repeat: no-repeat;
+ /* margin-right: 20px;*/
+  background-position: right;
+  background-size: 10px auto;
+ /* margin-top: 4px;*/
+  font-size: 16px;
+  transform: scale(1.15);
+}
+
+.qv-object-filterpane .title-wrapper { 
+    background-color: $color-fondo-filtro !important;
+    border-left: 1px solid !important;
+    border-color: $color-borde-filtro; 
+}
+
+.qv-object-filterpane .title-wrapper :first-child{ 
+    border: none !important;  
+}
+
+
+.qv-filterpane .qv-filterpane-column:first-child {
+    margin-left: 0;
+    margin-right: 0px;
+}
+
+.qv-filterpane .qv-filterpane-column:last-child {
+    margin-left: 0;
+    margin-right: 0px;
+}
+.qv-filterpane .qv-filterpane-column{
+    flex: 1 0 0%;
+    min-width: 0;
+    height: 100%;
+    margin: 0 0px; 
+}
+
+.qv-object-filterpane .title-wrapper:hover {
+ /*   background-color: #55abd3 !important;*/
+    background-color: $color-fondo-filtro !important;
+    border-left: 1px solid !important;
+    border-color: $color-borde-filtro !important; 
+ /*   color: #00203a; */
+    color: $color-letra-filtro-hover !important; 
+}
+
+.qv-collapsed-listbox {
+    border: none;
+    background: 0 !important;
+
+}
+
+.qv-pt .cell.selected, .qv-pt .cell.selected-highlighted, .qv-pt .cell.parent.left.selected, .qv-pt .cell.empty.left.selected, .qv-pt .cell.left.selected, .qv-pt .cell.parent.left.selected-highlighted, .qv-pt .cell.empty.left.selected-highlighted, .qv-pt .cell.left.selected-highlighted {
+    background-color: #ffc400 !important;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.qv-state-count-bar .state.optional {
+    background: $color-barra-estado-filtro ;
+    border:none !important;
+}
+
+.qv-collapsed-listbox .qv-state-count-bar{
+    visibility: hidden !important;
+}
+/* Fin Filtros */ 
+/* Borde Contenedor */
+.qs-container .qsc-item-wrapper,.qs-container .qsc-tab-row{
+  border:none;
+}
+/* Titulo Tabla Vizlib */
+.qv-object-VizlibTable .header-title {
+    color: white;
+}
+
+/* --------------------------REVISAR QUE ES -----------------------------------*/
+.qv-pt .cell .left-meta-headers .lui-button, .qv-pt .cell .top-meta-headers .lui-button {
+	color:#666666!important;
+	border-color: #AAAAAA !important;
+}
+
+.qv-pt .cell .left-meta-headers .lui-button, .qv-pt .cell .top-meta-headers .lui-button {
+	background-color: #f3f4f4;
+	}
+
+.qv-pt .cell .left-meta-headers .lui-button.lui-active, .qv-pt .cell .top-meta-headers .lui-button.lui-active {
+    background-color: #a7c55f;
+}
+/* --------------------------REVISAR QUE ES -----------------------------------*/
+
+/* Botones de arriba en blanco*/
+.tab-menu-button .double-label-tab .secondary-label {
+    color:$color-botones !important;
+    }
+    
+.tab-menu-button .double-label-tab .primary-label {
+    color: $color-botones !important;
+}
+
+
+/*Cuando paso por arriba de los filtros*/
+.qv-collapsed-listbox.interactive:hover{
+    border: none !important;
+}
+
+/* Botones de barra gris secundaria */
+.bright.qv-panel-current-selections .buttons-end .qv-subtoolbar-button, .bright.qv-panel-current-selections .buttons .qv-subtoolbar-button{
+    color:#595959 !important;
+}
+
+.qv-panel-edit-bar button {
+    color:#595959 !important;
+}
+
+.lui-input-group .lui-input-group__button {
+    color: #595959 !important;
+    border-color: #b3b3b3 !important;
+}
+
+.lui-icon--clear-selections:before {
+    color: #595959 !important;
+}
+/* Fin Botones de barra gris secundaria */
+
+/* Botones Aceptar y Cancelar Selecciones */
+.lui-icon--close:before {
+    color: #ffffff !important;
+}
+
+.lui-icon--tick:before {
+    color: #ffffff !important;
+}
+/* Fn Botones Aceptar y Cancelar Selecciones */
+
+/* Barra Titulo y Logo Hoja */
+.qv-panel-sheet .sheet-title-container {
+    border-bottom: 2px solid $color-borde-barra-titulo !important;
+}
+
+/* Extension Hackaton */
+.qv-object-LatamHackaton .lui-button{
+    width: 100%;
+    background-color: $color-fondo-extension !important;
+    color: $color-letra-extension !important;
+    border: 1px solid $color-borde-extension !important;
+    margin-bottom: 2px;
+}
+
+.qv-object-LatamHackaton .lui-button:hover{
+    background-color: $color-fondo-extension-hover !important;
+}
+
+.qv-object-LatamHackaton .lui-button:active{
+    background-color: $color-fondo-extension-hover !important;
+    transform: translateY(4px);
+}
+/* Fin Extension Hackaton */
+
+
+/* Cuadro de Selecciones */
+.qv-listbox li.serverOptional {
+    background-color: $color-fondo-cuadro-selecciones !important;
+}
+
+.sel-toolbar-list{
+    background-color: $color-fondo-cuadro-selecciones !important;
+}
+
+.lui-search__input{
+    background-color: $color-fondo-cuadro-selecciones !important;
+}
+
+.lui-search .lui-search__clear-icon, .lui-search .lui-search__search-icon {
+    background-color: $color-fondo-cuadro-selecciones !important;
+}
+
+.qv-listbox-popover, .qv-listbox-popover-small-device {
+    background-color: $color-barra-separa-cuadro-selecciones !important;
+}
+/* Fin Cuadro de Selecciones */
+
+
+#selectable{
+    background-color: $color-fondo-clase-selectable;
+}
+
+
+/* Narrar historia */
+#qv-story-play .qv-story-play-slide {
+    background-color: $color-fondo-narrar-historia !important;
+}
+
+/* --------------------Revisar ----------------*/
+.qs-ao-nav__button .lui-fade-button__text{
+    color:#595959 !important;
+}
+
+.qs-ao-nav__button .lui-icon--sheet:before{
+    color:#595959 !important;
+}
+
+.qs-ao-nav__button .lui-icon--bookmark:before{
+    color:#595959 !important;
+}
+
+.qs-ao-nav__button .lui-icon--slide-show:before{
+    color:#595959 !important;
+}
+
+/* --------------------Revisar ----------------*/
+
+
+/*Header de la tabla*/
+.qv-st-interactive:not(.qv-st-selections-active):not(.qv-st-reordering-active) .qv-st-header:not(.qv-st-custom-header) .qv-st-header-cell-search, .qv-st-navigatable:not(.qv-st-selections-active):not(.qv-st-reordering-active) .qv-st-header-sortable:not(.qv-st-custom-header) {
+    background-color:  $color-fondo-cabecera-tabla !important;
+    color: $color-letra-cabecera-tabla !important;
+    font-size: 14px;
+}
+
+.qv-st-header-cell {
+    border-bottom: 1px solid $color-borde-cabecera-tabla !important;
+}
+/*
+.qv-st-data-cell-dimension-value{
+    border: 1px solid #227093 !important;
+}
+
+/*.qv-st-data-cell {
+    border-bottom: 1px solid #227093 !important;
+}
+
+.column-width-adjust-line{
+    background-color: #227093 !important;
+}
+*/
+
+/*-------------------Selector de Variables---------------------------REVISAR*/
+.qui-select.lui-select{
+    background-color: transparent !important;
+    border-color: #227093 !important;
+}
+
+/*-------------------Selector de Variables---------------------------REVISAR*/
+/*-------------------REVISAR---------------------------*/
+.lui-popover .lui-popover__footer button{
+    color: #7d7d7d !important;
+}
+/*-------------------REVISAR---------------------------*/
+
+
+/*Titulo de los objetos en editar */
+.qv-inline-edit-value {
+    color: $color-titulo-objetos;
+}
+/*Leyenda del mapa*/
+.legend-object div{
+    color: $color-letra-leyenda-mapa !important;
+}
+/*Fondo del mapa en blanco y boton de home en azul*/
+.qv-object-map-chart .map-content, .qv-object-map .map-content {
+    background-color:$color-fondo-mapa;
+    }
+    
+.lui-icon--home:before {
+    color: $color-boton-home-mapa;
+}
+
+@if $v-prueba == 1 {
+.lui-icon--home:before {
+    color: $color-boton-home-mapa;
+}
+}
+@else if $v-prueba == 2{
+.lui-icon--home:before {
+    background-color: $color-boton-home-mapa;
+}
+}

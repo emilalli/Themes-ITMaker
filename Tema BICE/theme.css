@@ -1,0 +1,47 @@
+/*
+@font-face {font-family: "Bariol Regular"; src: url("//db.onlinewebfonts.com/t/ac437ca8426dbd7386bffda59c59a599.eot"); src: url("//db.onlinewebfonts.com/t/ac437ca8426dbd7386bffda59c59a599.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ac437ca8426dbd7386bffda59c59a599.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ac437ca8426dbd7386bffda59c59a599.woff") format("woff"), url("//db.onlinewebfonts.com/t/ac437ca8426dbd7386bffda59c59a599.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ac437ca8426dbd7386bffda59c59a599.svg#Bariol Regular") format("svg"); }
+*//*
+@font-face{
+  font-family:"bariol-regular-webfont";
+  src:url("https://candyfonts.com/wp-data/2018/10/26/11136/bariol_regular-webfont.ttf") format("woff"),
+  url("https://candyfonts.com/wp-data/2018/10/26/11136/bariol_regular-webfont.ttf") format("opentype"),
+  url("https://candyfonts.com/wp-data/2018/10/26/11136/bariol_regular-webfont.ttf") format("truetype");
+}
+*/
+@import url('http://fonts.cdnfonts.com/css/bariol-regular-2');
+
+/*
+/* Fuente Objetos */
+.qv-inner-object {
+  font-family: 'Bariol Regular', sans-serif !important;
+}
+
+.qv-object-content.button.text {
+  font-family: 'Bariol Regular', sans-serif !important;
+}
+
+body, button, input, isindex, keygen, select, textarea {
+  font-family: 'Bariol Regular', sans-serif !important;
+}
+
+.qv-object-qsstatistic .ui.statistics .statistic > .label, .qv-object-text-image .qv-media-tool-html, .button, .text {
+  font-family: 'Bariol Regular', sans-serif !important;
+}
+
+/*Fuente Títulos Objetos*/
+.qv-object .qv-object-title .qv-object-title-text {
+  font-family: 'Bariol Regular', sans-serif !important;
+}
+
+/*Footer de los objetos*/
+.qv-object-footnote {
+  font-family: 'Bariol Regular', sans-serif !important;
+}
+
+.qv-collapsed-listbox .title-wrapper .title {
+  font-family: 'Bariol Regular', sans-serif !important;
+}
+
+.qv-collapsed-listbox .title-wrapper .title:hover {
+  font-family: 'Bariol Regular', sans-serif !important;
+}
