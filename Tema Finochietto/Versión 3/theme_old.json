@@ -1,0 +1,194 @@
+{
+    "_inherit": true,
+    "_cards": false,
+    "_variables": {
+        "@TitleSize": "14px",
+        "@SubtitleSize": "13px",
+        "@TextSize": "12px",
+        "@FooterSize": "10px",
+        "@TitleColor": "#ffffff",
+        "@SubtitleColor": "#ffffff",
+        "@TextColor": "#585858",
+        "@FooterColor": "#585858",
+        "@BackgroundColor": "#BCBCBC",
+        "@AxisMajorColor": "#585858",
+        "@AxisMinorColor": "#585858"
+    },
+    "customStyles": [
+        {
+            "cssRef": "theme.css",
+            "classRef": "sense-theme"
+        }
+    ],
+    "color": "@TextColor",
+    "fontSize": "@TextSize",
+    "backgroundColor": "@backgroundColor",
+    "dataColors": {
+        "primaryColor": "#da5414",
+        "othersColor": "#435362",
+        "errorColor": "#CC4000",
+        "nullColor": "#706f6f"
+    },
+    "object": {
+        "title": {
+            "main": {
+                "color": "@TitleColor",
+                "fontSize": "@TitleSize"
+            },
+            "subTitle": {
+                "color": "@SubtitleColor",
+                "fontSize": "@SubtitleSize"
+            },
+            "footer": {
+                "color": "@FooterColor",
+                "fontSize": "@FooterSize",
+                "backgroundColor": "@backgroundColor"
+            }
+        },
+        "label": {
+            "name": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "value": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "axis": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "name": {
+                    "color": "@TextColor",
+                    "fontSize": "@TextSize"
+                }
+            },
+            "line": {
+                "major": {
+                    "color": "@AxisMajorColor"
+                },
+                "minor": {
+                    "color": "@AxisMinorColor"
+                }
+            }
+        },
+        "grid": {
+            "line": {
+                "highContrast": {
+                    "color": "#eeeeee"
+                },
+                "major": {
+                    "color": "#eeeeee"
+                },
+                "minor": {
+                    "color": "#eeeeee"
+                }
+            }
+        },
+        "referenceLine": {
+            "label": {
+                "name": {
+                    "color": "@TextColor",
+                    "fontSize": "@TextSize"
+                }
+            },
+            "outOfBounds": {
+                "color": "@TextColor",
+                "backgroundColor": "#ffffff",
+                "fontSize": "@TextSize"
+            }
+        },
+        "legend": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        }
+    },
+    "palettes": {
+        "data": [
+            {
+                "name": "Paleta Pacientes",
+                "translation": "Pacientes",
+                "propertyValue": "5a",
+                "type": "row",
+                "scale": [
+                    "#da5414",
+                    "#e17643",
+                    "#e89872",
+                    "#f0bba1",
+                    "#f7ddd0"
+                ]
+            },
+            {
+                "name": "Paleta Personal Medico",
+                "translation": "Personal Medico",
+                "propertyValue": "5b",
+                "type": "row",
+                "scale": [
+                    "#435362",
+                    "#687581",
+                    "#8e97a0",
+                    "#b4bac0",
+                    "#dadde0"
+                ]
+            },
+            {
+                "name": "Paleta Institucional",
+                "translation": "Institucional",
+                "propertyValue": "4",
+                "type": "row",
+                "scale": [
+                    "#da5414",
+                    "#435362",
+                    "#95a0a7",
+                    "#706f6f"
+                ]
+            },
+            {
+                "name": "Paleta Cromatica Secundaria",
+                "translation": "Servicios",
+                "propertyValue": "6",
+                "type": "row",
+                "scale": [
+                    "#36a8e0",
+                    "#c7a1cc",
+                    "#f5a10d",
+                    "#69b557",
+                    "#ccbaa1",
+                    "#ede8b5"
+                ]
+            }
+        ],
+        "ui": []
+    },
+    "scales": [
+        {
+            "name": "Naranja Azul",
+            "translation": "degradado naranja/azul",
+            "type": "class",
+            "propertyValue": "dg",
+            "scale": [
+                "#da5414",
+                "#435362"
+            ]
+        },
+        {
+            "name": "Naranja Gris",
+            "translation": "degradado naranja/gris",
+            "type": "class",
+            "propertyValue": "sg",
+            "scale": [
+                "#da5414",
+                "#706f6f"
+            ]
+        }
+    ]
+}

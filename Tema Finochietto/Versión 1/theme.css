@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+    src: url("//db.onlinewebfonts.com/t/e351d9696c48bd2fbb51200af4054b09.eot"); 
+    src: url("//db.onlinewebfonts.com/t/e351d9696c48bd2fbb51200af4054b09.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/e351d9696c48bd2fbb51200af4054b09.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/e351d9696c48bd2fbb51200af4054b09.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/e351d9696c48bd2fbb51200af4054b09.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/e351d9696c48bd2fbb51200af4054b09.svg#Avenir Next LT Pro Ultralight") format("svg"); 
+}
+
+#sheet-title {    
+    background-image: url(https://i.imgur.com/PK8TTVX.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.qvt-sheet{
+  font-family: 'AvenirNextLTPro-Regular' !important;
+  font-weight: 900;
+    background: #dadde0 !important; 
+}
+
+.qv-object  {
+
+    background-color: #fafafa;
+    border-color: #c6c6c6;
+    border-style: solid;
+    border-radius: 2px 2px 2px 2px;
+    font-family: 'AvenirNextLTPro-Regular' !important;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.16);
+}
+
+
+.qv-object-treemap  {
+    padding-bottom: 10px;
+}
+
+.qv-object-barchart .qv-object-header,.qv-object-qlik-multi-kpi .qv-object-header,.qv-object-boxplot .qv-object-header
+.qv-object-distributionplot .qv-object-header,.qv-object-gauge .qv-object-header,.qv-object-histogram .qv-object-header,
+.qv-object-linechart .qv-object-header,.qv-object-mapchart .qv-object-header,.qv-object-piechart .qv-object-header
+,.qv-object-pivot-table .qv-object-header,.qv-object-scatterplot .qv-object-header,.qv-object-table .qv-object-header,
+.qv-object-straighttable .qv-object-header,.qv-object-treemap .qv-object-header,.qv-object-waterfallchart .qv-object-header
+,.qv-object-map .qv-object-header{
+    border-radius: 2px 2px 0px 0px;
+    font-size: 10.5px;
+    background: #435362;
+    padding: .1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.qv-object .qv-object-title * {
+    font-family: 'AvenirNextLTPro-Regular' !important;
+    font-weight: bolder;
+    color: #e4e4e4;
+}
+
+/*.qv-object .qv-viz * ,.qv-object .qv-chart-component-axis *,
+.qv-object .qv-listbox *,.qv-object .qv-treemap * {
+
+font-family: 'AvenirNextLTPro-Regular' !important;
+font-weight: 600;
+
+}*/
+
+.qv-object-kpi .ellips-text {
+  color: #da5414;
+}
+
+.qv-object-kpi .measure-title.ellips-text {
+color: #435362;
+}
+
+.qv-object-table th,.qv-object-pivot-table th{
+        background-color:#e5e5e5;
+}
+.qv-object-table tr:nth-child(odd),.qv-object-pivot-table tr:nth-child(odd) {
+    background-color:#eeeeee;
+}
+.qv-object-table tr:nth-child(even),.qv-object-pivot-table tr:nth-child(even) {
+    background-color:#fafafa;
+}
+
+.qv-object-filterpane{
+    background-color: #435362;
+    padding-top: 0px; 
+    box-shadow: none;
+}
+
+
+.qv-object-qlik-variable-input .qv-layout-spark{
+  background-color: #435362 !important;
+  color: white !important;
+
+} 
+
+
+.qv-collapsed-listbox .title-wrapper .title{
+
+  color: #e4e4e4;
+  font-family: 'AvenirNextLTPro-Regular' !important;
+  font-weight: 800;
+  text-align: center;
+  background-image: url(https://i.imgur.com/ompjJgF.png);
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  background-position: right;
+  background-size: 10px auto;
+  margin-top: 4px;
+}
+.qv-collapsed-listbox .title-wrapper .title:hover{
+
+  color: white;
+  font-family: 'AvenirNextLTPro-Regular' !important;
+  font-weight: 800;
+  text-align: center;
+  background-image: url(https://i.imgur.com/ompjJgF.png);
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  background-position: right;
+  background-size: 10px auto;
+  margin-top: 4px;
+}
+
+.qv-object-qlik-variable-input {
+     background-color: #435362; 
+}
+
+.qv-object-qlik-variable-input :hover{
+     background-color: #da5414 !important; 
+}
+.qv-object-qlik-variable-input .qv-object-header.thin {
+     height: 2.5px!important; 
+}
+
+.qv-object-qlik-variable-input .lui-select {
+    color: #ffffff;
+    border:none;
+    background-image: url(https://i.imgur.com/ompjJgF.png);
+    background-size: 9px 13px;
+}
+
+.qv-object-filterpane .title-wrapper { 
+    background-color: #435362 !important; 
+    border: none;  
+    border-left-style: groove;
+    border-color: #e4e4e4;  
+    border-left-width: 1px;
+}
+
+
+.qv-filterpane .qv-filterpane-column:first-child {
+    margin-left: 0;
+    margin-right: 0px;
+}
+
+.qv-filterpane .qv-filterpane-column:last-child {
+    margin-left: 0;
+    margin-right: 0px;
+}
+.qv-filterpane .qv-filterpane-column{
+    flex: 1 0 0%;
+    min-width: 0;
+    height: 100%;
+    margin: 0 0px; 
+}
+
+.qv-object-filterpane .title-wrapper:hover {
+    background-color: #da5414 !important; 
+    border: none !important; 
+    color: #00203a; }
+
+
+.qv-collapsed-listbox {
+    border: none;
+    background: 0 !important;
+
+}
+
+.qv-pt .cell.selected, .qv-pt .cell.selected-highlighted, .qv-pt .cell.parent.left.selected, .qv-pt .cell.empty.left.selected, .qv-pt .cell.left.selected, .qv-pt .cell.parent.left.selected-highlighted, .qv-pt .cell.empty.left.selected-highlighted, .qv-pt .cell.left.selected-highlighted {
+    background-color: #ffc400 !important;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.qv-state-count-bar .state.optional {
+    background: #435362 ;
+    border:none !important;
+} 
+
+.qv-state-count-bar{
+    background: #435362 ;
+    border:none !important;
+} 
+
+div [tid="PaQeXS"] .qv-object-header, div [tid="GaDBsRD"] .qv-object-header, div [tid="pUXRTxD"] .qv-object-header,
+ div [tid="YjDVZU"] .qv-object-header, div [tid="d4d5531e-42b8-43d1-820e-d9ede9ef4aa9"] .qv-object-header,
+ div [tid="Cjes"] .qv-object-header,div [tid="WUtPuB"] .qv-object-header,div [tid="mJNPvmn"] .qv-object-header{
+display:none ;
+}
+
+.qv-listbox-text*{
+    font-family: QlikView Sans,sans-serif;
+}
+
+
+.lui-tab.lui-active, .lui-tab.lui-focused, .lui-tab {
+    background-color: #435362 !important;
+}
+
+.qs-container .qsc-tab-row {
+  background-color: #435362 !important;
+}
+
+.qs-container .qsc-item-wrapper {
+  background-color: #435362 !important;
+}
+
+.lui-tab.lui-active, .lui-tab.lui-focused, .lui-tab:focus {
+    background-color: #da5414 !important;
+    border-bottom: 2px solid #dab014 !important;
+    transition: none !important;
+}
+.lui-tab.lui-active, .lui-tab.lui-focused, .lui-tab:hover {
+    background-color: #da5414 !important;
+}
+
+.lui-tab .lui-tab__text {
+    color: #e4e4e4 !important;
+}
+
+.qs-toolbar{
+    background-color: #435362;
+}
+
+.lui-fade-button ,.lui-button {
+    color:#e4e4e4;
+}
+
+.lui-fade-button:focus ,.lui-button:focus{
+    color:#e4e4e4;
+}
+.lui-fade-button:hover ,.lui-button:hover{
+    color:#da5414;
+}
+
+.lui-icon--table:before {
+    color: #e4e4e4 !important;
+}

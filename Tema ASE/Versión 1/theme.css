@@ -1,0 +1,270 @@
+@font-face {font-family: "FF Sanuk"; 
+src: url("//db.onlinewebfonts.com/t/91666a104f56e5a5afdb21fb419a7642.eot"); 
+src: url("//db.onlinewebfonts.com/t/91666a104f56e5a5afdb21fb419a7642.eot?#iefix") format("embedded-opentype"), 
+url("//db.onlinewebfonts.com/t/91666a104f56e5a5afdb21fb419a7642.woff2") format("woff2"), 
+url("//db.onlinewebfonts.com/t/91666a104f56e5a5afdb21fb419a7642.woff") format("woff"),
+url("//db.onlinewebfonts.com/t/91666a104f56e5a5afdb21fb419a7642.ttf") format("truetype"), 
+url("//db.onlinewebfonts.com/t/91666a104f56e5a5afdb21fb419a7642.svg#FF Sanuk") format("svg"); }
+
+.qvt-sheet{
+  background:#ffffff !important;
+}
+
+.qv-object-filterpane{
+    padding-top: 0px; 
+    /*background-color: #ed5200 !important; */
+    box-shadow: none;
+}
+
+.qv-collapsed-listbox .title-wrapper .title{
+
+  font-family: 'FF Sanuk' !important;
+  color: #ffffff;
+  text-align: center;
+  background-image: url(https://i.imgur.com/ompjJgF.png);
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  background-position: right;
+  background-size: 10px auto;
+}
+
+.qv-object .qb-object-header{
+  font-family: 'FF Sanuk' !important;
+}
+
+.qv-object-filterpane .title-wrapper { 
+    background-color: #ed5200 !important; 
+    border: none;  
+    border-left-style: solid;
+    border-color: #ffffff;  
+    border-left-width: 1px;
+    border-radius: 0 0 0 0 !important;
+
+}
+
+.qv-object-filterpane .title-wrapper:first-child{ 
+    border: none !important;  
+}
+
+.qv-filterpane .qv-filterpane-column, .qv-filterpane .qv-filterpane-column:first-child,.qv-filterpane .qv-filterpane-column:last-child{
+  margin:0;
+}
+
+.qv-client:not(.single-full-height) .qv-filterpane {
+	background-color: #a4a6a7; 
+	padding-bottom: 0px;
+}
+
+.qv-object-filterpane .title-wrapper:hover {
+    background-color: #a4a6a7 !important; 
+    border: none !important; 
+    color: #a4a6a7; 
+	border-radius: 0 0 0 0;
+
+	}
+
+.qv-state-count-bar .state.optional, .qv-state-count-bar {
+    background: #a4a6a7 ;
+    border:none !important;
+    border-width: !important;
+    border-radius: 0 0 0 0 !important;
+} 
+
+.qv-collapsed-listbox {
+    border: none;
+    background: 0 !important;
+
+}
+
+.lui-icon--drill-down:before {
+    margin-left: 12px;
+    color: white;
+}
+
+/*div [tid="NdrnP"] .qv-object-filterpane .title-wrapper{
+  background-color: #a4a6a7 !important; 
+  border: none !important; 
+}
+
+div [tid="NdrnP"] .qv-filterpane .qv-filterpane-column {
+  background-color: #a4a6a7 !important;  
+}
+
+
+div [tid="NdrnP"] .qv-filterpane:last-child ,div [tid="NdrnP"] .qv-filterpane:last-child {
+
+  background-color: #a4a6a7;
+}
+
+div [tid="NdrnP"] .qv-object-filterpane .title-wrapper:hover,div [tid="NdrnP"] .qv-object-filterpane .title-wrapper:hover {
+    background-color: #ed5200 !important; 
+    border: none !important; 
+  }
+div [tid="NdrnP"] .qv-state-count-bar .state.optional,div [tid="NdrnP"] .qv-state-count-bar .state.optional, .qv-state-count-bar {
+    background: #a4a6a7;
+    border: none !important;
+    border-width: !important;
+    border-radius: 0 0 0 0 !important;
+}*/
+
+div [tid="NdrnP"] .qv-collapsed-listbox .title-wrapper .title,div [tid="vjBQJj"] .qv-collapsed-listbox .title-wrapper .title,
+div [tid="XAPqVp"] .qv-collapsed-listbox .title-wrapper .title,div [tid="VyLh"] .qv-collapsed-listbox .title-wrapper .title,
+div [tid="YGeAP"] .qv-collapsed-listbox .title-wrapper .title,div [tid="sDsrrD"] .qv-collapsed-listbox .title-wrapper .title,
+div [tid="TLjPb"] .qv-collapsed-listbox .title-wrapper .title,div [tid="qAPypK"] .qv-collapsed-listbox .title-wrapper .title{
+
+  background-image: url(https://i.imgur.com/JB3Zo7A.png)!important;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  background-position: right;
+  background-size:auto 10px;
+}
+
+.qv-filterpane .qv-filterpane-collapsed, .qv-filterpane .qv-filterpane-expanded {
+    margin-top: 0px;
+}
+
+.scroll-content {
+    background: white;
+  }
+
+
+.qv-object .qv-object-header:not([font-family]) {
+    /*font-family: QlikView Sans,sans-serif;*/
+    font-family: 'FF Sanuk' !important;
+    font-style: italic;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.qv-object .qv-object-title * {
+        color: #ed5200;
+        padding-left: 18px;
+}
+
+h1.qv-object-title.qvt-visualization-title
+{ border-bottom: solid 1px #ed5200;
+    padding-bottom: 2px;
+}
+
+.qv-object-kpi .ellips-text {
+  color: #ed5200;
+}
+
+.qv-object-kpi .measure-title.ellips-text {
+color: #a4a6a7;
+}
+
+.qv-object-table th,.qv-object-pivot-table th{
+        background-color:#f5f5f5;
+}
+.qv-object-table tr:nth-child(odd),.qv-object-pivot-table tr:nth-child(odd) {
+    background-color:#eeeeee;
+}
+.qv-object-table tr:nth-child(even),.qv-object-pivot-table tr:nth-child(even) {
+    background-color:#fafafa;
+}
+
+.lui-tab.lui-active, .lui-tab.lui-focused, .lui-tab {
+    background-color: #c6c7c8 !important;
+}
+
+.lui-tab.lui-active:focus, .lui-tab.lui-focused:focus, .lui-tab:focus {
+    background-color: #ed5200 !important;
+    border-bottom: 2px solid #353535 !important;
+    transition: none;
+}
+
+.lui-tab.lui-active, .lui-tab.lui-focused, .lui-tab:hover {
+    background-color: #ed5200 !important;
+    border-bottom: 2px solid #353535 !important;
+}
+
+.lui-tab .lui-tab__text {
+    color: #353535;
+}
+
+.lui-tab:hover .lui-tab__text:hover {
+    color: #353535 !important;
+}
+
+.qs-toolbar{
+    background-color: #c6c7c8;
+}
+
+
+
+.lui-fade-button ,.lui-button {
+    color:#353535 !important;
+}
+
+.lui-fade-button:focus ,.lui-button:focus{
+    color:#353535 !important;
+}
+.lui-fade-button:hover ,.lui-button:hover{
+    color:#353535 !important;
+}
+
+
+.qv-object-DateRangePicker{
+    background: #ed5200;
+    padding: 7px 15px;
+}
+
+.bootstrap_inside * {
+    color: white;
+    font-size: 15px;
+}
+
+.bootstrap_inside .table-condensed > thead > tr > th, 
+.bootstrap_inside .table-condensed > tbody > tr > th, 
+.bootstrap_inside .table-condensed > tfoot > tr > th, 
+.bootstrap_inside .table-condensed > thead > tr > td, 
+.bootstrap_inside .table-condensed > tbody > tr > td, 
+.bootstrap_inside .table-condensed > tfoot > tr > td {
+    padding: 5px;
+    color: #353535;
+}
+
+.daterangepicker td.off, 
+.daterangepicker td.off.in-range, 
+.daterangepicker td.off.start-date, 
+.daterangepicker td.off.end-date {
+    background-color: #fff;
+    border-color: transparent;
+    color: #999 !important;
+}
+
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #ed5200;
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.ranges li.active {
+    background: #ed5200;
+    border: 1px solid #ed5200;
+    color: #fff;
+}
+
+.ranges li {
+    font-size: 13px;
+    background: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    border-radius: 4px;
+    color: #ed5200;
+    padding: 3px 12px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.bootstrap_inside {
+    background: #ed5200 !important;
+}
+
+.daterangepicker{
+  background-color: #ffffff !important;
+}
+
+.qv-object-qlik-variable-input .qv-object-header.thin {
+    height: 2px!important; 
+}
